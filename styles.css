@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  scroll-snap-align: start;
+}
+
+.container {
+  scroll-snap-type: y mandatory;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.one {
+  background-color: #264653;
+}
+.two {
+  background-color: #2a9d8f;
+}
+.three {
+  background-color: #e9c46a;
+}
+.four {
+  background-color: #f4a261;
+}
+.five {
+  background-color: #e76f51;
+}
